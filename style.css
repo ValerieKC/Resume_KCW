@@ -7,24 +7,17 @@ body{
 
 }
 
-#gtx-trans {
-  display: none;
-}
-
 /* 三個section共用的設定 */
 .resume {
   max-width: 60em;
   margin: 0 auto;
-  /* word-break: normal;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-x: visible; */
+  white-space: normal;
+  overflow-x: hidden;
 }
 
 /* 最上面那欄背景色的width要100% */
 .intro-section{
   width:100%;
-  height: 470px;
   background-color: #378AAD;
 }
 
@@ -37,6 +30,7 @@ body{
 
 .short-introduction{
   display: flex;
+  word-break: break-all ;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -94,6 +88,7 @@ hr {
 .sideProject{
   color:white;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .sideProject-p{
