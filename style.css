@@ -11,7 +11,10 @@ body{
 .resume {
   max-width: 40em;
   margin: 0 auto;
-
+  word-break: normal;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-x: visible;
 }
 
 /* 最上面那欄背景色的width要100% */
