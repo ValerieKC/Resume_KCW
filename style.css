@@ -7,14 +7,18 @@ body{
 
 }
 
+#gtx-trans {
+  display: none;
+}
+
 /* 三個section共用的設定 */
 .resume {
-  max-width: 40em;
+  max-width: 60em;
   margin: 0 auto;
-  word-break: normal;
-  word-wrap: break-word;
-  white-space: normal;
-  overflow-x: visible;
+  /* word-break: normal;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-x: visible; */
 }
 
 /* 最上面那欄背景色的width要100% */
